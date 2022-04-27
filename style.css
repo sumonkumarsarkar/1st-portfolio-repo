@@ -10,20 +10,18 @@ h1{
 .orange-color{
     color:orange;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom:20px;
     
 }
-
-
 .div1{ 
-    width:50%;
-    
+    width:50%;   
 }  
-.div2{
-width:50%;
+.div1 img{
+    width:100%;
 }
+
 
 .link-Button{
     text-decoration: none;
@@ -40,15 +38,12 @@ width:50%;
 }
 .mid-banner{
     background-image: url(image/imageedit_1_8324817997.jpg);
-background-size: 100%;
+     background-size: 100%;
     
 }
-.div3{ 
-    width:50%;
-    
-}  
-.div4{
-width:50%;
+.bio-data{
+    background-image: url(image/images\ \(1\).jpg);
+    background-size: 100%;
 }
 .link-Button1{
     text-decoration: none;
@@ -58,4 +53,24 @@ width:50%;
     border:2px solid rgb(12, 2, 37);
     border-radius: 5px;
     font-weight: 700;
+}
+.div2{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+    box-shadow: 10px 10px 40px skyblue;
+}
+#div3{
+    border-left: 7px solid;
+    border-image: linelinear-gradient(rgb(8, 71, 44),rgb(23, 122, 52) ;
+    border-image-slice:1;
+}
+#div4{
+    border-left: 7px solid;
+    border-image: linelinear-gradient(rgb(71, 8, 12),rgb(93, 7, 83) ;
+    border-image-slice:1;
+}
+footer p{
+    text-align:center;
 }
