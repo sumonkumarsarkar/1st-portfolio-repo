@@ -12,7 +12,7 @@ h1{
 }
 section{
     display: flex;
-    margin-bottom: 50px;
+    margin-bottom:20px;
     
 }
 
@@ -49,4 +49,13 @@ background-size: 100%;
 }  
 .div4{
 width:50%;
+}
+.link-Button1{
+    text-decoration: none;
+    padding:10px 50px;
+    color: rgb(86, 24, 90);
+    background-image: linear-gradient(rgb(59, 84, 145),rgb(119, 92, 186) );
+    border:2px solid rgb(12, 2, 37);
+    border-radius: 5px;
+    font-weight: 700;
 }
